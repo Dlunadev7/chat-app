@@ -1,0 +1,39 @@
+.unread {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+}
+
+.unread p {
+  width: fit-content;
+  padding: 0 5px;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+}
+
+.unread hr {
+  width: 90%;
+  border-style: none;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  height: 2px;
+}
+
+.unread__messages {
+  width: 24px;
+  height: 23px;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  font-weight: 700;
+  font-size: 8px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

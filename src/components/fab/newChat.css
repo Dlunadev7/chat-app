@@ -1,0 +1,23 @@
+.fab__new__chat {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: unset;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 64px;
+  right: 15px;
+}
+
+.new__chat__image {
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .fab__new__chat {
+    display: none;
+  }
+}

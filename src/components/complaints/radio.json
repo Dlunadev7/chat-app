@@ -1,0 +1,30 @@
+{
+  "firstGroup": [
+    {
+      "name": "Span"
+    },
+    {
+      "name": "Violence"
+    },
+    {
+      "name": "Pornography"
+    },
+    {
+      "name": "Child Abuse"
+    }
+  ],
+  "secondGroup": [
+    {
+      "name": "Copyright"
+    },
+    {
+      "name": "Illegal Drugs"
+    },
+    {
+      "name": "Personal Details"
+    },
+    {
+      "name": "Other"
+    }
+  ]
+}

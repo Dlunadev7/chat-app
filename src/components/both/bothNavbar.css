@@ -1,0 +1,39 @@
+.both__navbar {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  bottom: 0;
+}
+
+.both__navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.both__navbar__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+}
+
+.both__navbar__item__button {
+  border: unset;
+  outline: unset;
+  background: unset;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .both__navbar {
+    display: none;
+  }
+}

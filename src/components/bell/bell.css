@@ -1,0 +1,24 @@
+.header__notification {
+  position: relative;
+  cursor: pointer;
+}
+
+.header__notification__icon {
+  width: 20px;
+}
+
+.header__notification__count {
+  font-size: 8px;
+  font-weight: 500;
+  color: #fff;
+  width: 14.58px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 12px;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

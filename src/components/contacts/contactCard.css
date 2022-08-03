@@ -1,0 +1,91 @@
+.user-list {
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  position: relative;
+}
+
+.userCard {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  cursor: pointer;
+}
+
+.userCard__container {
+  display: flex;
+  align-items: center;
+}
+
+.userCard__picture__container {
+  height: 41px;
+  width: 41px;
+  margin-right: 12px;
+  position: relative;
+}
+
+.userCard__picture {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.userCard__online__pointer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 11px;
+  height: 12px;
+  background: #8CEE5D;
+}
+
+.userCard__offline__pointer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 11px;
+  height: 12px;
+  background: #858585;
+}
+
+
+.userCard__name {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  color: #858585;
+}
+
+.newChat__title {
+  color: #858585;
+  padding: 16px;
+  text-align: center;
+}
+
+.userCard__state {
+  font-weight: 400;
+  font-size: 10px;
+  color: #858585;
+}
+
+@media screen and (min-width: 768px) {
+  .user-list {
+    height: calc(100vh - 280px);
+    overflow-y: scroll;
+    background-color: #fff;
+  }
+
+  .user-list::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+  }
+
+  .user-list::-webkit-scrollbar-thumb {
+    background: #f0f0f0;
+  }
+}
