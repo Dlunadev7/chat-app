@@ -70,6 +70,7 @@ export const SignUp = () => {
               placeholder="John"
               value={name}
               onChange={(e) => handleInputChange(e)}
+              autoComplete={false}
             />
           </span>
         </label>
@@ -83,6 +84,7 @@ export const SignUp = () => {
               placeholder="Doe"
               value={lastName}
               onChange={(e) => handleInputChange(e)}
+              autoComplete={false}
             />
           </span>
         </label>
@@ -96,6 +98,7 @@ export const SignUp = () => {
               placeholder="johndoe@gmail.com"
               value={email}
               onChange={(e) => handleInputChange(e)}
+              autoComplete={false}
             />
           </span>
         </label>
@@ -109,6 +112,7 @@ export const SignUp = () => {
               placeholder="********"
               value={password}
               onChange={(e) => handleInputChange(e)}
+              autoComplete={false}
             />
           </span>
         </label>
