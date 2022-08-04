@@ -32,7 +32,7 @@
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .both__navbar {
     display: none;
   }
