@@ -69,7 +69,7 @@ export const Login = () => {
 
   return (
     <div className="form">
-      <form className="form__dates" onSubmit={(e) => handleLogin(e)}>
+      <form className="form__dates" onSubmit={(e) => handleLogin(e)} autoComplete="off">
         <label className="form__place">
           Email
           <span className="form__place__container">
