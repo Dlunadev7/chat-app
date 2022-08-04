@@ -34,8 +34,9 @@ export const UserInformationContext = ({ children }) => {
   }, [user]);
 
   const { auth } = getToken();
-
+  
   useEffect(() => {
+    
     const { token } =
       JSON.parse(sessionStorage?.getItem("auth")) || initialState;
 
@@ -54,7 +55,11 @@ export const UserInformationContext = ({ children }) => {
     }
 
     onReload();
-  }, []);
+
+   if(token?.length > 0) {
+     onReload();
+   }
+  }, [auth]);
 
   useEffect(() => {
 

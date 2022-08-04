@@ -20,7 +20,7 @@ export const AuthContext = ({ children }) => {
 
   useEffect(() => {
     sessionStorage.setItem("auth", JSON.stringify(state));
-  }, [state, authReducer]);
+  }, [initialState, authReducer]);
 
   return (
     <GlobalContext.Provider value={{ state, dispatch }}>

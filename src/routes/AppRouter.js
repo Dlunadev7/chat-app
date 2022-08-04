@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import { PrivateRoutes } from './PrivateRoutes';
 import { PublicRoutes } from './PublicRoutes';
@@ -15,7 +15,7 @@ import { UserInformationContext } from '../context/User';
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/*" element={
             <UserInformationContext>
@@ -43,6 +43,6 @@ export const AppRouter = () => {
           }/>
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
