@@ -80,6 +80,7 @@ export const Login = () => {
               placeholder="john_doe@gmail.com"
               value={email}
               onChange={(e) => handleInputChange(e)}
+              autoComplete="off"
             />
           </span>
         </label>
@@ -94,6 +95,7 @@ export const Login = () => {
               name="password"
               value={password}
               onChange={(e) => handleInputChange(e)}
+              autoComplete="off"
             />
           </span>
         </label>
