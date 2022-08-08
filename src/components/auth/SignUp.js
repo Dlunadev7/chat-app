@@ -59,7 +59,7 @@ export const SignUp = () => {
 
   return (
     <div className="form">
-      <form className="form__dates" onSubmit={(e) => handleSignUp(e)}>
+      <form className="form__dates" onSubmit={(e) => handleSignUp(e)} autoComplete="off">
         <label className="form__place">
           First Name
           <span className="form__place__container">
